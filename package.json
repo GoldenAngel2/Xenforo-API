@@ -1,0 +1,17 @@
+{
+  "name": "xenforo-api",
+  "private": true,
+  "cloudflare": {
+    "bindings": {
+      "WEBSITE_URL": {
+        "description": "The website URL that has the Xenforo API attached to it. Example: 'https://example.com/api' (No trailing '/'s)"
+      },
+      "API_KEY": {
+        "description": "The API key to use with the Xenforo API for the WEBSITE_URL. This is only used internally and never exposed to the users using this API"
+      },
+      "API_USER": {
+        "description": "The API user-type that the API_KEY is referencing, by default this will use 'guest' from Xenforo"
+      }
+    }
+  }
+}
