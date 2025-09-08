@@ -75,6 +75,7 @@ export default {
     }
     return json({
       status: true,
+      "powered_by": "https://github.com/GoldenAngel2/Xenforo-API",
       routes: [
         route({
           path: `/threads/:id`,
